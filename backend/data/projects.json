@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Product Image → Product Characteristics",
+    "summary": "Mapped visual product data into structured attributes for richer catalog intelligence.",
+    "stack": ["Computer Vision", "ML", "Data Pipelines"],
+    "impact": "Enabled scalable catalog enrichment for e-commerce decisioning.",
+    "icon": "project-vision.svg",
+    "business_description": "Automated enrichment of large product catalogs to improve discovery, merchandising, and analytics for decision makers.",
+    "technical_description": "Computer vision and ML pipelines for attribute extraction, image classification, and data validation across millions of SKUs.",
+    "scope": "Technical leadership across model development, pipeline design, and stakeholder alignment."
+  },
+  {
+    "name": "Internal Knowledge Chatbot",
+    "summary": "Built a secure chatbot to surface institutional knowledge and streamline internal support.",
+    "stack": ["LLMs", "NLP", "Retrieval"],
+    "impact": "Improved knowledge access and reduced time-to-answer across teams.",
+    "icon": "project-chat.svg",
+    "business_description": "Unified knowledge access for internal teams, reducing support load and improving response consistency.",
+    "technical_description": "Retrieval-augmented generation with security filters, source grounding, and conversational UX.",
+    "scope": "Co-authored solution design and guided implementation with stakeholders and engineering partners."
+  },
+  {
+    "name": "Company Text2SQL Bot",
+    "summary": "Delivered natural-language access to analytics data through text-to-SQL workflows.",
+    "stack": ["LLMs", "SQL", "Analytics"],
+    "impact": "Expanded data access for non-technical stakeholders.",
+    "icon": "project-sql.svg",
+    "business_description": "Enabled decision makers to query analytics data without SQL expertise, accelerating insight generation.",
+    "technical_description": "Schema-aware Text2SQL with validation, guardrails, and structured output evaluation.",
+    "scope": "Product owner and technical lead for model selection, evaluation, and rollout."
+  },
+  {
+    "name": "Fraudential Purchase Detection",
+    "summary": "Developed purchase fraud detection tooling with actionable alerts.",
+    "stack": ["ML", "Anomaly Detection"],
+    "impact": "Supported fraud prevention and risk mitigation.",
+    "icon": "project-shield.svg",
+    "business_description": "Reduced fraud exposure by flagging suspicious transactions and supporting trust & safety teams.",
+    "technical_description": "Anomaly detection pipelines with feature engineering, thresholding, and monitoring.",
+    "scope": "Project ownership covering model experimentation, dashboards, and stakeholder reporting."
+  },
+  {
+    "name": "Hotel Database Duplicates Finder",
+    "summary": "Built deduplication pipelines for hospitality content databases.",
+    "stack": ["Entity Resolution", "Data Quality"],
+    "impact": "Improved content integrity and search relevance.",
+    "icon": "project-dedup.svg",
+    "business_description": "Improved customer experience by eliminating duplicate hotel entries and consolidating metadata.",
+    "technical_description": "Entity resolution pipeline combining fuzzy matching, rule-based scoring, and manual review workflows.",
+    "scope": "Co-authored matching strategy and delivered data quality improvements."
+  }
+]
