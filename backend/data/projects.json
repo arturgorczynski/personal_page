@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Product Image → Product Characteristics",
+    "summary": "Mapped visual product data into structured attributes for richer catalog intelligence.",
+    "stack": ["Computer Vision", "ML", "Data Pipelines"],
+    "impact": "Enabled scalable catalog enrichment for e-commerce decisioning."
+  },
+  {
+    "name": "Internal Knowledge Chatbot",
+    "summary": "Built a secure chatbot to surface institutional knowledge and streamline internal support.",
+    "stack": ["LLMs", "NLP", "Retrieval"],
+    "impact": "Improved knowledge access and reduced time-to-answer across teams."
+  },
+  {
+    "name": "Company Text2SQL Bot",
+    "summary": "Delivered natural-language access to analytics data through text-to-SQL workflows.",
+    "stack": ["LLMs", "SQL", "Analytics"],
+    "impact": "Expanded data access for non-technical stakeholders."
+  },
+  {
+    "name": "Fraudential Purchase Detection",
+    "summary": "Developed purchase fraud detection tooling with actionable alerts.",
+    "stack": ["ML", "Anomaly Detection"],
+    "impact": "Supported fraud prevention and risk mitigation."
+  },
+  {
+    "name": "Hotel Database Duplicates Finder",
+    "summary": "Built deduplication pipelines for hospitality content databases.",
+    "stack": ["Entity Resolution", "Data Quality"],
+    "impact": "Improved content integrity and search relevance."
+  }
+]
