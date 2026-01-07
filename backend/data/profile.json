@@ -1,0 +1,17 @@
+{
+  "name": "Artur Gorczyński",
+  "role": "AI/LLM & Machine Learning Leader",
+  "tagline": "I use machine learning to address complex challenges and drive transformative change across industries.",
+  "location": "Cracow, Poland",
+  "email": "arturgorczynski@gmail.com",
+  "phone": "+48 510 674 741",
+  "links": [
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/arturgorczynski/" },
+    { "label": "GitHub", "url": "https://github.com/arturgorczynski" }
+  ],
+  "highlights": [
+    "Technical leader in AI/ML and generative AI delivery",
+    "Mentor and educator in data science programs",
+    "Builder of NLP, Text2SQL, and knowledge assistant systems"
+  ]
+}
