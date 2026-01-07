@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import csv
 import json
 from pathlib import Path
 
@@ -9,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
-CV_FILE = DATA_DIR / "cv.csv"
+CV_FILE = DATA_DIR / "cv.json"
 PROFILE_FILE = DATA_DIR / "profile.json"
 PROJECTS_FILE = DATA_DIR / "projects.json"
 PDF_FILE = DATA_DIR / "CV.pdf"
@@ -27,19 +26,8 @@ app.add_middleware(
 
 
 def load_cv() -> dict:
-    sections: dict[str, list[dict[str, str]]] = {}
-    with CV_FILE.open(newline="", encoding="utf-8") as handle:
-        reader = csv.DictReader(handle)
-        for row in reader:
-            section = row["section"].strip()
-            item = {
-                "title": row["title"].strip(),
-                "subtitle": row["subtitle"].strip(),
-                "period": row["period"].strip(),
-                "details": row["details"].strip(),
-            }
-            sections.setdefault(section, []).append(item)
-    return {"sections": sections}
+    with CV_FILE.open(encoding="utf-8") as handle:
+        return json.load(handle)
 
 
 def load_profile() -> dict:
