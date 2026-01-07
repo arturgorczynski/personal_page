@@ -92,7 +92,17 @@ const fallbackCv = {
   ],
   experience: [
     {
-      start: 2024,
+      start: "2025-06",
+      end: 2026,
+      company: "Self Employed",
+      role: "AI Engineer",
+      details: [
+        "Developing AI solutions and consulting services.",
+        "Working on cutting-edge AI projects and applications."
+      ]
+    },
+    {
+      start: "2024-01",
       end: 2026,
       company: "Zooplus",
       role: "Technical Leader — Machine Learning Engineer",
@@ -107,7 +117,7 @@ const fallbackCv = {
       ]
     },
     {
-      start: 2022,
+      start: "2022-05",
       end: 2024,
       company: "Zooplus",
       role: "[R&D] Data Scientist",
@@ -120,7 +130,7 @@ const fallbackCv = {
       ]
     },
     {
-      start: 2022,
+      start: "2022-03",
       end: 2024,
       company: "CodersLab",
       role: "Tutor / Mentor",
@@ -134,7 +144,7 @@ const fallbackCv = {
       ]
     },
     {
-      start: 2021,
+      start: "2021-10",
       end: 2022,
       company: "Avenga",
       role: "Machine Learning Data Scientist",
@@ -147,7 +157,7 @@ const fallbackCv = {
       ]
     },
     {
-      start: 2021,
+      start: "2021-01",
       end: 2021,
       company: "Pegasystems",
       role: "Cloud Business Analyst",
@@ -160,7 +170,7 @@ const fallbackCv = {
       ]
     },
     {
-      start: 2019,
+      start: "2019-04",
       end: 2020,
       company: "Bidroom",
       role: "Data Analyst",
@@ -173,7 +183,7 @@ const fallbackCv = {
       ]
     },
     {
-      start: 2018,
+      start: "2018-01",
       end: 2019,
       company: "Brainly",
       role: "Content Performance Analyst",
@@ -186,21 +196,21 @@ const fallbackCv = {
       ]
     },
     {
-      start: 2016,
+      start: "2016-07",
       end: 2018,
       company: "IBM (Services to Google)",
       role: "Payroll Administrator — Tax Equalization / M&A",
       details: ["Supported payroll, tax equalization, and M&A initiatives."]
     },
     {
-      start: 2016,
+      start: "2016-01",
       end: 2016,
       company: "Brown Brothers Harriman",
       role: "Investor Services Specialist",
       details: ["Provided investor services support and reporting."]
     },
     {
-      start: 2014,
+      start: "2014-03",
       end: 2015,
       company: "AON",
       role: "Flexible Benefit Administrator",
