@@ -1,0 +1,117 @@
+:root {
+  --bg-primary: #0b0f14;
+  --bg-secondary: #111827;
+  --bg-tertiary: #1f2937;
+  --accent-gold: #d4af37;
+  --accent-silver: #c0c0c0;
+  --accent-blue: #4f9cf8;
+  --text-primary: #f9fafb;
+  --text-secondary: #cbd5f5;
+  --border-soft: rgba(212, 175, 55, 0.25);
+}
+
+body {
+  background: radial-gradient(circle at top left, #1b2334, #0b0f14 55%);
+  color: var(--text-primary);
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.section {
+  padding: 4.5rem 0;
+}
+
+.navbar-glow {
+  backdrop-filter: blur(12px);
+  background: rgba(11, 15, 20, 0.85);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.card-neo {
+  background: linear-gradient(160deg, rgba(31, 41, 55, 0.95), rgba(12, 18, 28, 0.85));
+  border: 1px solid var(--border-soft);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+  border-radius: 16px;
+}
+
+.card-neo:hover {
+  transform: translateY(-4px);
+  transition: transform 0.3s ease;
+}
+
+.badge-soft {
+  background: rgba(212, 175, 55, 0.15);
+  color: var(--accent-gold);
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.button-accent {
+  background: linear-gradient(135deg, #d4af37, #f7e7b2);
+  color: #1a1a1a;
+  font-weight: 600;
+  border: none;
+}
+
+.button-accent:hover {
+  color: #0b0f14;
+}
+
+.anchor-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.anchor-link:hover,
+.anchor-link:focus {
+  color: var(--accent-gold);
+}
+
+.profile-chip {
+  background: rgba(79, 156, 248, 0.15);
+  border: 1px solid rgba(79, 156, 248, 0.35);
+  color: #a5c7ff;
+  border-radius: 999px;
+  padding: 0.35rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.details-panel code {
+  color: var(--accent-silver);
+}
+
+details summary {
+  cursor: pointer;
+}
+
+details summary::marker {
+  color: var(--accent-gold);
+}
+
+.timeline-item {
+  border-left: 2px solid rgba(212, 175, 55, 0.4);
+  padding-left: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.details-panel {
+  background: rgba(15, 23, 42, 0.7);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.footer-note {
+  color: rgba(203, 213, 245, 0.7);
+  font-size: 0.9rem;
+}
