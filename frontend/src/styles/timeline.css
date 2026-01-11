@@ -1,0 +1,362 @@
+/**
+ * Timeline styles - CV experience and technology timelines
+ */
+
+.cv-timeline {
+  position: relative;
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+}
+
+.cv-timeline-svg {
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+
+.pulse-circle,
+.pulse-circle-trail {
+  pointer-events: none;
+}
+
+.cv-path-dot {
+  cursor: pointer;
+  transition: all 0.25s ease;
+  filter: drop-shadow(0 0 4px rgba(212, 175, 55, 0.4));
+}
+
+.cv-path-dot:hover {
+  filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.8));
+}
+
+.cv-path-dot.active {
+  filter: drop-shadow(0 0 12px rgba(247, 231, 178, 1));
+  animation: dotPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes dotPulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 8px rgba(247, 231, 178, 0.7));
+  }
+  50% {
+    filter: drop-shadow(0 0 16px rgba(247, 231, 178, 1));
+  }
+}
+
+.cv-timeline-label {
+  position: absolute;
+  left: 0;
+  transform: translateX(-50%);
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+  width: 120px;
+  margin-left: 0;
+  transition: all var(--transition-fast);
+  z-index: 2;
+  pointer-events: all;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.cv-timeline-label.row-bottom.label-below {
+  top: calc(75% + 30px);
+}
+
+.cv-timeline-label.row-bottom.label-above {
+  top: calc(75% - 100px);
+}
+
+.cv-timeline-label.row-top.label-above {
+  top: calc(25% - 100px);
+}
+
+.cv-timeline-label.row-top.label-below {
+  top: calc(25% + 30px);
+}
+
+.cv-timeline-label:hover,
+.cv-timeline-label.active {
+  z-index: 10;
+}
+
+.cv-timeline-label:hover .cv-label-company,
+.cv-timeline-label.active .cv-label-company {
+  color: #f7e7b2;
+  text-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+}
+
+.cv-label-company {
+  display: block;
+  color: var(--accent-gold);
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 0.15rem 0;
+  text-align: center;
+  width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.cv-label-role {
+  display: block;
+  color: rgba(203, 213, 245, 0.8);
+  font-size: 0.7rem;
+  line-height: 1.2;
+  margin: 0 0 0.15rem 0;
+  text-align: center;
+  width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.cv-label-date {
+  display: block;
+  color: rgba(212, 175, 55, 0.65);
+  font-size: 0.65rem;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+/* CV Tab styling */
+.cv-tabs {
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+  margin-bottom: 1.5rem;
+}
+
+.cv-tabs .nav-link {
+  color: rgba(203, 213, 245, 0.6);
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+  background: transparent;
+}
+
+.cv-tabs .nav-link:hover {
+  color: rgba(203, 213, 245, 0.8);
+  border-bottom-color: rgba(212, 175, 55, 0.3);
+}
+
+.cv-tabs .nav-link.active {
+  color: var(--accent-gold);
+  border-bottom-color: var(--accent-gold);
+  background: transparent;
+}
+
+.cv-tabs .nav-link:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/* CV Details Panel */
+.cv-detail-role {
+  color: var(--accent-gold) !important;
+  font-weight: 600;
+}
+
+.cv-detail-company {
+  color: var(--text-secondary) !important;
+  font-weight: 500;
+}
+
+.cv-detail-dates {
+  color: var(--text-secondary) !important;
+  font-weight: 400;
+}
+
+.cv-detail-list {
+  color: rgba(203, 213, 245, 0.75) !important;
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+.cv-detail-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+/* Technology Timeline Styles */
+.tech-timeline {
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+}
+
+.tech-timeline-stage {
+  position: relative;
+}
+
+.tech-timeline-svg {
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+
+.tech-path-dot {
+  cursor: pointer;
+  transition: all 0.25s ease;
+  filter: drop-shadow(0 0 4px rgba(34, 197, 94, 0.4));
+}
+
+.tech-path-dot:hover {
+  filter: drop-shadow(0 0 10px rgba(34, 197, 94, 0.8));
+}
+
+.tech-path-dot.active {
+  filter: drop-shadow(0 0 12px rgba(134, 239, 172, 1));
+  animation: techDotPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes techDotPulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 8px rgba(134, 239, 172, 0.7));
+  }
+  50% {
+    filter: drop-shadow(0 0 16px rgba(134, 239, 172, 1));
+  }
+}
+
+.tech-timeline-label {
+  position: absolute;
+  left: 0;
+  transform: translateX(-50%);
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+  width: auto;
+  min-width: 120px;
+  max-width: 250px;
+  margin-left: 0;
+  transition: all var(--transition-fast);
+  z-index: 2;
+  pointer-events: all;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.tech-timeline-label.row-bottom.label-below {
+  top: calc(75% + 40px);
+}
+
+.tech-timeline-label.row-bottom.label-above {
+  top: calc(75% - 85px);
+}
+
+.tech-timeline-label.row-top.label-above {
+  top: calc(25% - 85px);
+}
+
+.tech-timeline-label.row-top.label-below {
+  top: calc(25% + 35px);
+}
+
+.tech-timeline-label:hover,
+.tech-timeline-label.active {
+  z-index: 10;
+}
+
+.tech-label-group {
+  width: 100%;
+  margin: 0;
+}
+
+/* Connecting lines between box and dot */
+.tech-timeline-label::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 1px;
+  background: rgba(34, 197, 94, 0.15);
+  z-index: 1;
+}
+
+.tech-timeline-label.row-bottom.label-below::before {
+  bottom: 100%;
+  height: 30px;
+  transform: translateX(-50%);
+}
+
+.tech-timeline-label.row-top.label-below::before {
+  bottom: 100%;
+  height: 25px;
+  transform: translateX(-50%);
+}
+
+.tech-timeline-label.row-bottom.label-above::before {
+  top: 100%;
+  height: 30px;
+  transform: translateX(-50%);
+}
+
+.tech-timeline-label.row-top.label-above::before {
+  top: 100%;
+  height: 25px;
+  transform: translateX(-50%);
+}
+
+.tech-group-box {
+  background: linear-gradient(160deg, rgba(34, 197, 94, 0.15), rgba(16, 185, 129, 0.1));
+  border: 1px solid var(--border-green);
+  border-radius: 12px;
+  padding: 0.2rem 0.4rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0;
+  min-width: 140px;
+  max-width: 250px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+.tech-group-item {
+  color: var(--accent-green-light);
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0;
+  margin-right: 0.3rem;
+  line-height: 1.4;
+  white-space: nowrap;
+  display: inline;
+}
+
+.tech-comma {
+  margin: 0 0.2rem;
+}
+
+.tech-timeline-label.active .tech-group-box {
+  border-color: rgba(34, 197, 94, 0.6);
+  background: linear-gradient(160deg, rgba(34, 197, 94, 0.25), rgba(16, 185, 129, 0.15));
+  box-shadow: 0 6px 20px rgba(34, 197, 94, 0.3);
+}
+
+.tech-timeline-label.active .tech-group-item {
+  color: var(--accent-green-light);
+  font-weight: 600;
+}
+
+.tech-timeline-label.active .tech-label-name {
+  color: var(--accent-green-light);
+  text-shadow: 0 0 8px rgba(34, 197, 94, 0.4);
+}
+
+/* Timeline item */
+.timeline-item {
+  border-left: 2px solid var(--border-gold);
+  padding-left: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+

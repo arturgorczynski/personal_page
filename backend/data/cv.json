@@ -30,10 +30,20 @@
   ],
   "experience": [
     {
-      "start": 2024,
-      "end": 2026,
+      "start": "2025-06",
+      "end": "Present",
+      "company": "Self Employed",
+      "role": "AI Engineer",
+      "details": [
+        "Developing AI solutions and consulting services.",
+        "Working on cutting-edge AI projects and applications."
+      ]
+    },
+    {
+      "start": "2024-01",
+      "end": "2025-06",
       "company": "Zooplus",
-      "role": "Technical Leader — Machine Learning Engineer",
+      "role": "Technical Leader – Machine Learning Engineer",
       "details": [
         "Contribute to the identification and planning of the company's long-term AI roadmap.",
         "Research and integrate emerging AI technologies into projects to maintain a competitive edge.",
@@ -45,8 +55,8 @@
       ]
     },
     {
-      "start": 2022,
-      "end": 2024,
+      "start": "2022-05",
+      "end": "2024-01",
       "company": "Zooplus",
       "role": "[R&D] Data Scientist",
       "details": [
@@ -58,8 +68,8 @@
       ]
     },
     {
-      "start": 2022,
-      "end": 2024,
+      "start": "2022-03",
+      "end": "2024-03",
       "company": "CodersLab",
       "role": "Tutor / Mentor",
       "details": [
@@ -72,10 +82,10 @@
       ]
     },
     {
-      "start": 2021,
-      "end": 2022,
+      "start": "2021-10",
+      "end": "2022-05",
       "company": "Avenga",
-      "role": "Machine Learning Data Scientist",
+      "role": "Data Scientist",
       "details": [
         "Led a team of 3 specialists to deliver an NLP-focused project.",
         "Designed and implemented innovative NLP solutions.",
@@ -85,8 +95,8 @@
       ]
     },
     {
-      "start": 2021,
-      "end": 2021,
+      "start": "2021-01",
+      "end": "2021-09",
       "company": "Pegasystems",
       "role": "Cloud Business Analyst",
       "details": [
@@ -98,8 +108,8 @@
       ]
     },
     {
-      "start": 2019,
-      "end": 2020,
+      "start": "2019-04",
+      "end": "2020-12",
       "company": "Bidroom",
       "role": "Data Analyst",
       "details": [
@@ -111,8 +121,8 @@
       ]
     },
     {
-      "start": 2018,
-      "end": 2019,
+      "start": "2018-01",
+      "end": "2019-03",
       "company": "Brainly",
       "role": "Content Performance Analyst",
       "details": [
@@ -124,17 +134,17 @@
       ]
     },
     {
-      "start": 2016,
-      "end": 2018,
-      "company": "IBM (Services to Google)",
-      "role": "Payroll Administrator — Tax Equalization / M&A",
+      "start": "2016-07",
+      "end": "2018-01",
+      "company": "IBM (providing services to Google)",
+      "role": "Payroll Administrator – Tax Equalization / M&A",
       "details": [
         "Supported payroll, tax equalization, and M&A initiatives."
       ]
     },
     {
-      "start": 2016,
-      "end": 2016,
+      "start": "2016-01",
+      "end": "2016-07",
       "company": "Brown Brothers Harriman",
       "role": "Investor Services Specialist",
       "details": [
@@ -142,8 +152,8 @@
       ]
     },
     {
-      "start": 2014,
-      "end": 2015,
+      "start": "2014-03",
+      "end": "2015-12",
       "company": "AON",
       "role": "Flexible Benefit Administrator",
       "details": [
@@ -154,14 +164,16 @@
   "education": [
     {
       "school": "Jagiellonian University",
-      "degree": "Criminal Rehabilitation — Master’s degree",
+      "degree": "Criminal Rehabilitation — Master's degree",
       "period": "Sep 2010 – Jul 2015"
     },
     {
       "school": "Pedagogical University",
-      "degree": "Philosophy — Bachelor’s Degree",
+      "degree": "Philosophy — Bachelor's Degree",
       "period": "Sep 2008 – Jul 2011"
-    },
+    }
+  ],
+  "certifications": [
     {
       "school": "MoreSteam",
       "degree": "Six Sigma — Yellow Belt",

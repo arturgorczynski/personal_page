@@ -1,0 +1,17 @@
+/**
+ * Transition and animation styles
+ */
+
+/* Fade transition for details panel */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity var(--transition-normal), transform var(--transition-normal);
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+

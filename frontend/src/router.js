@@ -1,9 +1,13 @@
 import { createRouter, createWebHistory } from "vue-router";
+
+// Eager load Welcome page for fast initial render
 import WelcomeView from "./pages/WelcomeView.vue";
-import CvView from "./pages/CvView.vue";
-import ProjectsView from "./pages/ProjectsView.vue";
-import EvangelistView from "./pages/EvangelistView.vue";
-import ContactView from "./pages/ContactView.vue";
+
+// Lazy load other pages for better performance
+const CvView = () => import("./pages/CvView.vue");
+const ProjectsView = () => import("./pages/ProjectsView.vue");
+const EvangelistView = () => import("./pages/EvangelistView.vue");
+const ContactView = () => import("./pages/ContactView.vue");
 
 const routes = [
   { path: "/", name: "welcome", component: WelcomeView },

@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Microsoft Suite",
+    "start": "2015-01",
+    "description": "Proficient in Excel, Word, PowerPoint, and Outlook for data analysis, documentation, and communication."
+  },
+  {
+    "name": "Project Management",
+    "start": "2016-07",
+    "description": "Experienced in Agile methodologies, sprint planning, stakeholder management, and cross-functional team coordination."
+  },
+  {
+    "name": "Jira",
+    "start": "2016-07",
+    "description": "Project management and issue tracking using Jira."
+  },
+  {
+    "name": "Data Visualisation",
+    "start": "2016-07",
+    "description": "Creating effective data visualizations and dashboards."
+  },
+  {
+    "name": "Python",
+    "start": "2018-01",
+    "description": "Advanced Python programming for data science, machine learning, automation, and backend development."
+  },
+  {
+    "name": "SQL",
+    "start": "2018-01",
+    "description": "Expert in SQL for data querying, database design, optimization, and complex analytical queries."
+  },
+  {
+    "name": "Knowledge Sharing",
+    "start": "2018-01",
+    "description": "Sharing knowledge and best practices with teams."
+  },
+  {
+    "name": "Machine Learning",
+    "start": "2019-04",
+    "description": "Deep expertise in ML algorithms, model development, training, evaluation, and deployment in production environments."
+  },
+  {
+    "name": "Scikit Learn",
+    "start": "2019-04",
+    "description": "Machine learning library for Python."
+  },
+  {
+    "name": "Git",
+    "start": "2019-04",
+    "description": "Version control and collaboration using Git."
+  },
+  {
+    "name": "Cloud",
+    "start": "2021-01",
+    "description": "Cloud infrastructure design, deployment, and management across multiple platforms."
+  },
+  {
+    "name": "AWS",
+    "start": "2021-01",
+    "description": "AWS Certified Solutions Architect with hands-on experience in EC2, S3, SageMaker, Lambda, and cloud architecture."
+  },
+  {
+    "name": "forecasting",
+    "start": "2021-01",
+    "description": "Time series forecasting and predictive analytics."
+  },
+  {
+    "name": "NLP",
+    "start": "2021-10",
+    "description": "Natural Language Processing for text analysis and understanding."
+  },
+  {
+    "name": "Deep learning",
+    "start": "2021-10",
+    "description": "Deep learning models and neural networks."
+  },
+  {
+    "name": "PyTorch",
+    "start": "2022-05",
+    "description": "Deep learning framework for building and training neural networks."
+  },
+  {
+    "name": "Docker",
+    "start": "2022-05",
+    "description": "Containerization and container orchestration."
+  },
+  {
+    "name": "Kubernetes",
+    "start": "2022-05",
+    "description": "Container orchestration and deployment."
+  },
+  {
+    "name": "Mentoring",
+    "start": "2022-05",
+    "description": "Mentoring team members and sharing expertise."
+  },
+  {
+    "name": "Linux",
+    "start": "2022-05",
+    "description": "Linux system administration and development."
+  },
+  {
+    "name": "LLM",
+    "start": "2024-01",
+    "description": "Large Language Models and their applications."
+  },
+  {
+    "name": "Generative AI",
+    "start": "2024-01",
+    "description": "Generative AI models and applications."
+  },
+  {
+    "name": "Jenkins",
+    "start": "2024-01",
+    "description": "CI/CD pipeline automation with Jenkins."
+  },
+  {
+    "name": "Backend development",
+    "start": "2025-06",
+    "description": "Backend development and API design."
+  },
+  {
+    "name": "Rest API",
+    "start": "2025-06",
+    "description": "RESTful API design and development."
+  },
+  {
+    "name": "Databricks",
+    "start": "2025-06",
+    "description": "Data engineering and analytics on Databricks platform."
+  }
+]
+
+

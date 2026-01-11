@@ -1,0 +1,67 @@
+/**
+ * Responsive styles - media queries
+ */
+
+@media (max-width: 991px) {
+  .nav-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .welcome-intro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-photo, .profile-photo-placeholder {
+    width: 160px;
+    height: 160px;
+  }
+
+  .portal-line-svg {
+    left: 12px;
+    transform: none;
+    width: 8px;
+  }
+
+  .timeline-row {
+    justify-content: flex-start;
+  }
+
+  .point-dot {
+    left: 12px !important;
+    transform: translateX(-50%) !important;
+  }
+
+  .tree-branches-svg {
+    display: none;
+  }
+
+  .tree-node.node-1, .tree-node.node-3,
+  .tree-node.node-2, .tree-node.node-4 {
+    justify-content: flex-start;
+    padding-left: 60px;
+    padding-right: 1rem;
+  }
+
+  .node-connector {
+    display: none;
+  }
+
+  .node-dot {
+    left: 12px;
+    transform: none;
+  }
+
+  .tree-trunk {
+    left: 12px;
+    transform: none;
+  }
+
+  .node-content.align-right {
+    text-align: left;
+  }
+}
+
+
