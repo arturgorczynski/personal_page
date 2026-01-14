@@ -1,32 +1,30 @@
 [
   {
     "id": "focus",
-    "title": "Focus",
-    "body": "Generative AI, NLP, and production-grade machine learning solutions.",
+    "title": "Current Focus",
+    "body": "Generative AI, NLP, and production-grade ML—built to survive real users, real latency, and real audits.",
     "offset": -280,
     "top": "60px"
   },
   {
     "id": "availability",
-    "title": "Availability",
-    "body": "Talks, workshops, advisory, and product discovery sessions.",
+    "title": "Availability For",
+    "body": "AI consulting, workshops, advisory, product discovery sessions, plus mentoring & coaching that actually changes how teams ship.",
     "offset": 460,
     "top": "140px"
   },
   {
     "id": "technology",
-    "title": "Technology",
-    "body": "Python, FastAPI, PyTorch, LLM tooling, and cloud-native MLOps.",
+    "title": "Technology Stack",
+    "body": "Python, FastAPI, PyTorch, LLMs, RAG, agentic systems, cloud platforms, containerisation, and CI/CD pipelines that don’t flake at 2am.",
     "offset": -460,
     "top": "220px"
   },
   {
     "id": "expertise",
     "title": "Area of expertise",
-    "body": "AI strategy, NLP, generative AI systems, and data-driven product leadership.",
+    "body": "Generative AI & LLMs, data science, statistical modelling, time series & forecasting, and deep learning—turning messy signals into decisions.",
     "offset": 220,
     "top": "300px"
   }
 ]
-
-

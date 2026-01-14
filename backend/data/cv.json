@@ -1,5 +1,5 @@
 {
-  "summary": "I use machine learning to address complex challenges and drive transformative change across industries.",
+  "summary": "I trun complex problem into reliable solution with use of ML and AI magic",
   "personal": {
     "name": "Artur Gorczyński",
     "location": "Cracow, Poland",
@@ -35,8 +35,11 @@
       "company": "Self Employed",
       "role": "AI Engineer",
       "details": [
-        "Developing AI solutions and consulting services.",
-        "Working on cutting-edge AI projects and applications."
+        "Delivered AI solutions and consulting services across multiple industries, from discovery through implementation.",
+        "Designed and implemented solution architectures, including multi-agent systems powered by state-of-the-art models.",
+        "Ensured audit-ready quality through rigorous validation, testing, and documentation.",
+        "Enabled AI adoption by aligning business stakeholders on problem framing, constraints, and success metrics.",
+        "Provided LLM/AI technical guidance and hands-on support to team members."
       ]
     },
     {
@@ -78,7 +81,8 @@
         "Assisted new students in preparing for classes.",
         "Collaborated with lecturers and mentors to optimize knowledge delivery.",
         "Contributed to the preparation of ML career path course materials.",
-        "Mentored new tutors to ensure effective teaching."
+        "Mentored new tutors to ensure effective teaching.",
+        "Actively took part in preparing new course about Generative AI and LLMs"
       ]
     },
     {
@@ -186,6 +190,9 @@
     }
   ],
   "hobby": [
-    "Add your hobbies here"
+    "Data Science as exstension fo human epistemology",
+    "Neuroscience and AI",
+    "Computer Gaming",
+    "Hiking"
   ]
 }
