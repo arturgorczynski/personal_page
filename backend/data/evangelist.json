@@ -1,12 +1,10 @@
 [
   {
     "title": "Current Topics",
-    "body": "LLM safety, prompt engineering, AI product strategy, data governance."
+    "body": "What Generative AI is, what LLMs really do (and why they’re surprisingly “dumb” but extremely useful), and how computers turn human language into something they can process."
   },
   {
     "title": "Next Steps",
-    "body": "Reach out via email to align on format, audience, and outcomes."
+    "body": "I’m building a series of public-friendly materials that explain Generative AI without the hype—bridging the gap between technically savvy folks and everyone else who just wants to understand what’s happening."
   }
 ]
-
-

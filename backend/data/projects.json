@@ -1,52 +1,249 @@
 [
   {
-    "name": "Product Image → Product Characteristics",
-    "summary": "Mapped visual product data into structured attributes for richer catalog intelligence.",
-    "stack": ["Computer Vision", "ML", "Data Pipelines"],
-    "impact": "Enabled scalable catalog enrichment for e-commerce decisioning.",
-    "icon": "project-vision.svg",
-    "business_description": "Automated enrichment of large product catalogs to improve discovery, merchandising, and analytics for decision makers.",
-    "technical_description": "Computer vision and ML pipelines for attribute extraction, image classification, and data validation across millions of SKUs.",
-    "scope": "Technical leadership across model development, pipeline design, and stakeholder alignment."
+    "name": "Adaptive Document Data Extractor",
+    "year": 2026,
+    "project_technically_led": true,
+    "was_llm_used": true,
+    "was_agents_used": false,
+    "summary": "Designed an dynamic extraction system in which there is autmatic information discovery followed by adjusted schema assembly and extraction with use of VLLM",
+    "stack": ["LLMs", "Pydantic", "LangChain", "Streamlit", "DataBricks", "Python"],
+    "impact": "Improved flexibility for heterogeneous documents by reducing schema brittleness and enabling structured extraction aligned to page content.",
+    "icon": "project-extractor.svg",
+    "business_description": "Accelerated document digitization where documents vary heavily and business semantics require iterative alignment.",
+    "technical_description": "First phase was to load the document and identify key information over the first page. Then based on predefined rules and schemas for this particualr document type, the system would run information detection followed by schema assembly and extraction, for each page in the document.",
+    "scope": "Design and technical leadership with close collaboration across business semantics and extraction modeling.",
+    "highlights": [
+      "Detect-then-extract pattern to reduce brittle schema-first failures",
+      "Dynamic schema assembly to match real document variability",
+      "Validation tooling to support iterative business alignment"
+    ]
   },
   {
-    "name": "Internal Knowledge Chatbot",
-    "summary": "Built a secure chatbot to surface institutional knowledge and streamline internal support.",
-    "stack": ["LLMs", "NLP", "Retrieval"],
-    "impact": "Improved knowledge access and reduced time-to-answer across teams.",
+    "name": "Process Focused Agentic RAG Platform",
+    "year": 2026,
+    "project_technically_led": true,
+    "was_llm_used": true,
+    "was_agents_used": true,
+    "summary": "Designed an agentic RAG system enchanced with process releated tools and workflows run by specialized agents for different data modalities.",
+    "stack": ["Databricks Vector Search", "LangChain", "LangGraph", "Streamlit", "SQL", "LLMs", "Agents", "RAG", "Python"],
+    "impact": "Delivered an extensible PoC for audit-oriented knowledge work with dynamic routing and latency-aware model usage.",
+    "icon": "project-audit.svg",
+    "business_description": "Supported process related workflows by enabling structured exploration of evidence across documents and structured data sources.",
+    "technical_description": "Multi-agent design including planning/router, vector search, tabular analysis, SQL, and utilities; latency-aware model selection and dynamic scenario handling.",
+    "scope": "Design and technical lead across system architecture, agent design, and validation tooling.",
+    "highlights": [
+      "Router/planner agent coordinated specialized tools and agents",
+      "Handled both unstructured documents and structured/tabular data",
+      "Designed for extensibility and operational constraints (latency/cost)"
+    ]
+  },
+  {
+    "name": "Agentic RAG for Company Wide Documentation",
+    "year": 2025,
+    "project_technically_led": true,
+    "was_llm_used": true,
+    "was_agents_used": true,
+    "summary": "Designed a multi-agent retrieval system over heterogeneous company documentation with multi-hop retrieval and precise attribution.",
+    "stack": ["Qdrant", "LLMs", "Vector Search", "LangChain", "LangGraph", "FastAPI" ,"Agents", "RAG", "Python"],
+    "impact": "Produced a funded proof-of-concept enabling reliable, sourced answers across complex documentation sets.",
+    "icon": "project-multiagent.svg",
+    "business_description": "Enabled teams to query internal brand/process knowledge spread across many document types while maintaining traceability to exact sources and pages.",
+    "technical_description": "Architecture with one conversational agent and multiple source-specialized agents; multi-hop retrieval; strict source/page attribution to support auditability and trust.",
+    "scope": "Backend lead and solution designer from architecture through PoC delivery.",
+    "highlights": [
+      "Source-specialized agents improved retrieval precision by document type",
+      "Multi-hop retrieval handled questions requiring multiple evidence pieces",
+      "Attribution designed as a core feature, not an afterthought"
+    ]
+  },
+  {
+    "name": "Topic-Oriented Chat Assistant",
+    "year": 2025,
+    "project_technically_led": false,
+    "was_llm_used": true,
+    "was_agents_used": false,
+    "summary": "Guided LLM system design for a topic-focused assistant that was designed as human-like help for user process. Emphasizing personalization, usability, and safety constraints, along real value for the user.",
+    "stack": ["LLMs", "Backend Development", "Security", "Personalization", "FastAPI", "Vector Search", "Python"],
+    "impact": "Improved solution robustness and product usability through LLM-specific architecture guidance and engineering contribution.",
     "icon": "project-chat.svg",
-    "business_description": "Unified knowledge access for internal teams, reducing support load and improving response consistency.",
-    "technical_description": "Retrieval-augmented generation with security filters, source grounding, and conversational UX.",
-    "scope": "Co-authored solution design and guided implementation with stakeholders and engineering partners."
+    "business_description": "Developed a conversational assistant targeted at a concrete set of user problems, with strong emphasis on user experience and safe operation.",
+    "technical_description": "LLM design guidance covering personalization patterns, security considerations, and usability; contributed as a backend developer while aligning architecture with product constraints.",
+    "scope": "LLM architecture guidance plus hands-on backend development; supported cross-functional decisions without disclosing client identity.",
+    "highlights": [
+      "Balanced product constraints with LLM safety/usability requirements",
+      "Contributed to system architecture discussions and implementation",
+      "Prioritized practical operability over theoretical model capability"
+    ]
   },
   {
-    "name": "Company Text2SQL Bot",
-    "summary": "Delivered natural-language access to analytics data through text-to-SQL workflows.",
-    "stack": ["LLMs", "SQL", "Analytics"],
-    "impact": "Expanded data access for non-technical stakeholders.",
+    "name": "Internal Knowledge Retrieval Assistant (RAG)",
+    "year": 2025,
+    "project_technically_led": false,
+    "was_llm_used": true,
+    "was_agents_used": false,
+    "summary": "Built a secure internal assistant to surface institutional knowledge with grounded answers and source context.",
+    "stack": ["RAG", "Vector Search", "Qdrant", "Document Parsing", "LLMs", "AWS", "Azure", "Python"],
+    "impact": "Improved time-to-answer for internal teams and reduced ad-hoc support load through self-serve access to curated knowledge.",
+    "icon": "project-chat.svg",
+    "business_description": "Unified access to internal documentation to reduce repeated questions and improve response consistency across teams.",
+    "technical_description": "Text and image ingestion, automated image descriptions, retrieval with source grounding, and conversational UI; designed for security-aware internal usage patterns.",
+    "scope": "Technical lead and project owner with full autonomy over design and delivery; close collaboration with business stakeholders.",
+    "highlights": [
+      "Ingested both text and visual knowledge with image descriptions",
+      "Emphasized grounding and traceability over purely fluent generation",
+      "Iterated with stakeholders to match real internal workflows"
+    ]
+  },
+  {
+    "name": "Text-to-SQL Analytics Assistant",
+    "year": 2024,
+    "project_technically_led": false,
+    "was_llm_used": true,
+    "was_agents_used": false,
+    "summary": "Delivered natural-language access to analytics data via schema-aware Text-to-SQL with validation and guardrails.",
+    "stack": ["LLMs", "SQL", "Guardrails", "AWS", "Python"],
+    "impact": "Expanded data access for non-technical stakeholders while reducing risk of incorrect or unsafe queries.",
     "icon": "project-sql.svg",
-    "business_description": "Enabled decision makers to query analytics data without SQL expertise, accelerating insight generation.",
-    "technical_description": "Schema-aware Text2SQL with validation, guardrails, and structured output evaluation.",
-    "scope": "Product owner and technical lead for model selection, evaluation, and rollout."
+    "business_description": "Enabled decision makers to query analytics data without SQL expertise, accelerating insight generation and reducing dependency on specialist teams.",
+    "technical_description": "Schema-aware Text-to-SQL generation, query validation, safety constraints, and evaluation of structured outputs; emphasis on correctness and user experience under real-world ambiguity.",
+    "scope": "Project ownership focused on architecture review, security/correctness guardrails, mentoring, and rollout guidance (not primary implementer).",
+    "highlights": [
+      "Challenged assumptions around correctness, security, and UX",
+      "Guided feature prioritization and knowledge sharing",
+      "Focused on operational safety rather than demo-only accuracy"
+    ]
   },
   {
-    "name": "Fraudential Purchase Detection",
-    "summary": "Developed purchase fraud detection tooling with actionable alerts.",
-    "stack": ["ML", "Anomaly Detection"],
-    "impact": "Supported fraud prevention and risk mitigation.",
+    "name": "Multi-Source Product Master Data Construction",
+    "year": 2025,
+    "project_technically_led": true,
+    "was_llm_used": true,
+    "was_agents_used": true,
+    "summary": "Designed a robust ingestion and consolidation system to build master data from heterogeneous sources without rigid upfront schemas.",
+    "stack": ["LLMs", "AWS", "Python", "SQL", "No-SQL", "Azure", "Agents", "Streamlit", "Docker", "Kubernetes"],
+    "impact": "Improved resilience to missing/uneven sources by combining multiple evidence streams into consolidated outputs.",
+    "icon": "project-collector.svg",
+    "business_description": "Reduced reliance on a single source of truth by integrating images, spreadsheets, PDFs, and web-derived data into a consolidated product knowledge layer.",
+    "technical_description": "Per-source ingestion pipelines; semi-structured extraction without predefined schemas; consolidation/merge logic for overlapping information; Writer/Critic-style iterative refinement to improve final output quality.",
+    "scope": "Technical lead and project owner: architecture, consolidation strategy, and quality approach.",
+    "highlights": [
+      "Source-specialized digestion improved robustness under incomplete inputs",
+      "Schema-light extraction enabled progress in uncertain domains",
+      "Iterative refinement pattern used to reduce hallucinations and improve coherence"
+    ]
+  },
+  {
+    "name": "Document-Based Attribute Verification",
+    "year": 2024,
+    "project_technically_led": true,
+    "was_llm_used": true,
+    "was_agents_used": false,
+    "summary": "Built a multi-step pipeline to verify product compliance-relevant attributes from photos and document text.",
+    "stack": ["OCR", "LLMs", "Information Extraction", "Azure Document Intelligence", "Azure", "AWS", "Jenkins", "Python", "Streamlit", "Git", "Docker", "Kubernetes"],
+    "impact": "Enabled semi-automated verification of product criteria with business validation, constrained primarily by input artifact quality.",
+    "icon": "project-extractor.svg",
+    "business_description": "Supported master data and compliance workflows by extracting/validating key attributes where no single reliable source of truth existed.",
+    "technical_description": "OCR ingestion, language filtering, heuristic preprocessing, and LLM-based boolean reasoning (“does evidence support criterion X?”), followed by rewriting/normalization steps; operated on a few hundred SKUs with human validation loops.",
+    "scope": "Technical lead and project owner through partial deployment and iterative quality improvement.",
+    "highlights": [
+      "Designed evidence-based boolean reasoning prompts rather than free-form extraction",
+      "Human-in-the-loop validation with business stakeholders",
+      "Primary limitation identified: insufficient photo quality/consistency"
+    ]
+  },
+  {
+    "name": "Fraudulent Purchase Detection",
+    "year": 2023,
+    "project_technically_led": true,
+    "was_llm_used": false,
+    "was_agents_used": false,
+    "summary": "Developed anomaly-based fraud detection producing actionable alerts, then supported business decision-making on deployment risk.",
+    "stack": ["Anomaly Detection", "Isolation Forest", "Local Outlier Factor", "Feature Engineering", "Monitoring"],
+    "impact": "Delivered a rapid detection mechanism during a fraud spike; surfaced the trade-off between fraud reduction and potential customer impact.",
     "icon": "project-shield.svg",
-    "business_description": "Reduced fraud exposure by flagging suspicious transactions and supporting trust & safety teams.",
-    "technical_description": "Anomaly detection pipelines with feature engineering, thresholding, and monitoring.",
-    "scope": "Project ownership covering model experimentation, dashboards, and stakeholder reporting."
+    "business_description": "Reduced fraud exposure by flagging suspicious purchasing patterns and enabling trust & safety teams to respond faster during elevated risk periods.",
+    "technical_description": "Built customer-level behavioral features; established a baseline where simple indicators captured a large portion of cases; trained anomaly detection models and evaluated operating thresholds.",
+    "scope": "Project ownership covering analysis, modeling, alert design, and stakeholder reporting.",
+    "highlights": [
+      "Simple behavioral indicators captured a substantial share of cases before modeling",
+      "Approximate observed performance: ~80% true positive rate, ~2.5% false positive rate",
+      "Deployment decision framed as business tolerance for false positives"
+    ]
   },
   {
-    "name": "Hotel Database Duplicates Finder",
-    "summary": "Built deduplication pipelines for hospitality content databases.",
-    "stack": ["Entity Resolution", "Data Quality"],
-    "impact": "Improved content integrity and search relevance.",
+    "name": "Large-Scale Demand Forecasting (E-commerce)",
+    "year": 2022,
+    "project_technically_led": true,
+    "was_llm_used": false,
+    "was_agents_used": false,
+    "summary": "Led model and data exploration for SKU-level demand forecasting, emphasizing data quality and event modeling as primary levers.",
+    "stack": ["Forecasting", "ARIMA", "Prophet", "Temporal Fusion Transformer", "Feature Engineering", "Stakeholder Collaboration"],
+    "impact": "Clarified why model upgrades alone were insufficient and identified actionable improvements in historical data quality and known-future-event incorporation.",
+    "icon": "project-lsf.svg",
+    "business_description": "Supported downstream ordering decisions by improving the reliability of demand forecasts across a large and dynamic product portfolio.",
+    "technical_description": "Ran multi-model exploration across granularities, feature sets, and hierarchical approaches; assessed advanced architectures where justified; collaborated with stakeholders to capture operational constraints and failure modes.",
+    "scope": "Technical lead (no people management): experimentation direction, technical decision-making, and stakeholder alignment.",
+    "highlights": [
+      "Validated that better historical coverage/cleaning materially improved outcomes",
+      "Identified promotions/supply disruptions as key known-future signals",
+      "Highlighted inter-product dynamics as an unmet modeling requirement"
+    ]
+  },
+  {
+    "name": "Privilege Uplift Ticket Clustering (Security Operations)",
+    "year": 2021,
+    "project_technically_led": true,
+    "was_llm_used": false,
+    "was_agents_used": false,
+    "summary": "Investigated clustering of privilege-uplift requests and concluded upstream input redesign was required for reliable categorization.",
+    "stack": ["NLP", "Topic Modeling", "Clustering", "LDA", "K-Means", "HDBSCAN", "Data Quality"],
+    "impact": "Prevented wasted engineering effort by providing evidence-based guidance: fix input structure before attempting ML categorization.",
+    "icon": "project-cluster.svg",
+    "business_description": "Improved understanding of why privileged access was granted by attempting to derive meaningful categories from historical tickets, then recommending process changes when the data proved unrecoverable.",
+    "technical_description": "Separated mixed request sources into distinct streams; applied aggressive text cleaning to reduce noise in manual tickets; evaluated multiple clustering approaches and assessed interpretability/stability of resulting clusters.",
+    "scope": "Ideation and development focused on diagnosis, experimentation, and communicating a defensible go/no-go recommendation.",
+    "highlights": [
+      "Identified dataset contamination from fundamentally different request sources",
+      "Demonstrated that noisy, unconstrained free text blocked stable clustering",
+      "Recommended structured forms/fields as the correct leverage point"
+    ]
+  },
+  {
+    "name": "Cloud Usage Forecasting (Capacity & Cost Planning)",
+    "year": 2021,
+    "project_technically_led": false,
+    "was_llm_used": false,
+    "was_agents_used": false,
+    "summary": "Designed a forecasting approach for cloud infrastructure usage to support capacity planning and cost control.",
+    "stack": ["Time Series Forecasting", "Prophet", "SARIMAX", "Data Pipelines", "Uncertainty Communication"],
+    "impact": "Improved planning inputs by structuring forecasting assumptions and aligning model outputs with operational decision-making.",
+    "icon": "project-forecast.svg",
+    "business_description": "Enabled more informed capacity and cost planning by producing forward-looking usage estimates and clarifying the reliability and update cadence of forecasts.",
+    "technical_description": "Defined forecasting strategy and model choices; shaped assumptions around seasonality and trend stability; emphasized process design and data readiness as first-order constraints for forecast quality.",
+    "scope": "Ideation and design work, including stakeholder alignment on expectations and operational usage of forecasts.",
+    "highlights": [
+      "Forecasting framed as an evolving operational process (not a one-off model)",
+      "Focused on data acquisition and pipeline maturity as primary risk drivers",
+      "Aligned forecast uncertainty with business tolerance for planning error"
+    ]
+  },
+  {
+    "name": "Hospitality Inventory Deduplication",
+    "year": 2019,
+    "project_technically_led": true,
+    "was_llm_used": false,
+    "was_agents_used": false,
+    "summary": "Built an entity-resolution system to identify and consolidate duplicate hotel entries across providers.",
+    "stack": ["Entity Resolution", "Feature Engineering", "Random Forest", "Logistic Regression", "Data Quality"],
+    "impact": "Improved search relevance and enabled creation of richer consolidated hotel profiles from multiple sources.",
     "icon": "project-dedup.svg",
-    "business_description": "Improved customer experience by eliminating duplicate hotel entries and consolidating metadata.",
-    "technical_description": "Entity resolution pipeline combining fuzzy matching, rule-based scoring, and manual review workflows.",
-    "scope": "Co-authored matching strategy and delivered data quality improvements."
+    "business_description": "Reduced duplicate entries appearing in search results and enabled merging provider metadata into a single, higher-quality representation of the same physical hotel.",
+    "technical_description": "Engineered weak but complementary similarity signals from noisy names, addresses, geolocation hints, and provider metadata; trained a similarity scoring model and operationalized decision thresholds with a manual review band; layered a classifier to further automate decisions.",
+    "scope": "End-to-end technical ownership: ideation, system design, implementation, and validation with business users.",
+    "highlights": [
+      "Similarity learning under unreliable identifiers and noisy text fields",
+      "Operational triage bands: non-duplicate, duplicate, manual review",
+      "Business-side validation prioritized over offline metrics alone"
+    ]
   }
 ]

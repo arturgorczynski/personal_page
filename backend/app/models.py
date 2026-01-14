@@ -66,6 +66,10 @@ class CvResponse(BaseModel):
 
 class ProjectResponse(BaseModel):
     name: str = Field(min_length=1)
+    year: int
+    project_technically_led: bool = False
+    was_llm_used: bool = False
+    was_agents_used: bool = False
     summary: str = Field(min_length=1)
     stack: list[str] = Field(default_factory=list)
     impact: str = Field(min_length=1)
@@ -73,6 +77,7 @@ class ProjectResponse(BaseModel):
     business_description: str = Field(min_length=1)
     technical_description: str = Field(min_length=1)
     scope: str = Field(min_length=1)
+    highlights: list[str] | None = Field(default=None)
 
 
 class TechnologyResponse(BaseModel):
@@ -92,5 +97,6 @@ class InfoPointResponse(BaseModel):
 class EvangelistPanelResponse(BaseModel):
     title: str = Field(min_length=1)
     body: str = Field(min_length=1)
+
 
 
